@@ -75,7 +75,6 @@ public class DoublyLinkedList {
 		}
 		@Override
 		public String toString() {
-			
 			StringBuilder sb = new StringBuilder();
 			toString(sb, header);
 			return sb.toString();
