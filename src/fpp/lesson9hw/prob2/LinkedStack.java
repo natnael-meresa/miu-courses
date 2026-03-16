@@ -70,7 +70,9 @@ public class LinkedStack {
 
     void main(){
         LinkedStack ls = new LinkedStack();
+        System.out.println(ls.isEmpty());
         ls.push(1);
+        System.out.println(ls.isEmpty());
         ls.push(2);
         System.out.println(ls);
         System.out.println("Size: " + ls.size());
